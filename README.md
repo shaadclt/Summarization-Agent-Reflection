@@ -3,7 +3,8 @@ This project uses LlamaIndex's Introspective Agent to summarize product specific
 
 # 🚀 Demo Notebook
 You can run the full pipeline on Google Colab using the notebook:
-summarization_agent_reflection.ipynb
+
+`summarization_agent_reflection.ipynb`
 
 # 🔧 Features
 - ✅ Uses Groq LLaMA 3.3-70B via llama-index-llms-groq
