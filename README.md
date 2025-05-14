@@ -62,8 +62,10 @@ The Groq API key is securely loaded from the Colab environment:
 ```python
 from google.colab import userdata
 llm = Groq(model="llama-3.3-70b-versatile", api_key=userdata.get('GROQ_API_KEY'))
-Make sure to upload your API key via the Colab interface (userdata.set('GROQ_API_KEY', 'your_key') or manually inject via secrets).
 ```
+
+Make sure to upload your API key via the Colab interface (userdata.set('GROQ_API_KEY', 'your_key') or manually inject via secrets).
+
 
 # 📌 Notes
 - The current version processes only the first page of the input document.
